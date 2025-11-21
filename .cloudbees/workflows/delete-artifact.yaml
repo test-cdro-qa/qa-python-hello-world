@@ -17,7 +17,7 @@ jobs:
           username: cbpautomation
           password: ${{ secrets.DOCKER_PASSWORD }}
 
-      - uses: cloudbees-io/kaniko/.cloudbees/testing
+      - uses: cloudbees-io/kaniko@v1
         name: Push image to OCI registry
         with:
           destination: index.docker.io/cbpautomation/python-hello-world-docker:${{cloudbees.version}}
@@ -52,5 +52,5 @@ jobs:
         with:
           content: |-
             CB_VERSION: ${{cloudbees.version}}
-            echo "Date: 2025-11-20T15:07:33.293Z"
+            echo "Date: 2025-11-21T09:54:50.726Z"
 
