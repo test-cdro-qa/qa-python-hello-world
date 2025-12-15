@@ -11,7 +11,7 @@ jobs:
         id: register
         with:
           name: "cbpautomation/python-hello-world-docker"
-          version: "15.11.35"
+          version: "15.11.37"
           url: "docker.io/cbpautomation/python-hello-world-docker:15.11.35"
           digest: "sha256:58c7ce4ddb55e4b06242a21e04df2fa866449e88919dc631240162e67f738682"
           
