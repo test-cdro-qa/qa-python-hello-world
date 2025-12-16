@@ -41,7 +41,7 @@ jobs:
         uses: cloudbees-io/register-deployed-artifact@v2
         with:
           artifact-id: ${{ needs.build.outputs.artifact-id }}
-          target-environment: qa
+          target-environment: QA
   deploy-prod:
     needs: build
     steps:
@@ -49,4 +49,4 @@ jobs:
         uses: cloudbees-io/register-deployed-artifact@v2
         with:
           artifact-id: ${{ needs.build.outputs.artifact-id }}
-          target-environment: prod
+          target-environment: PROD
