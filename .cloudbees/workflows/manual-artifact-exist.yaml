@@ -9,7 +9,7 @@ jobs:
   manual_reg_artifacts:
     steps:
       - name: Inform system that an artifact version was created
-        uses: cloudbees-io/register-build-artifact@v1
+        uses: cloudbees-io/register-build-artifact@v2
         id: register
         with:
           name: ${{ vars.DOCKER_USERNAME }}/python-hello-world-docker
@@ -28,4 +28,4 @@ jobs:
         shell: sh
         run: |
           echo "CB_VERSION: ${{cloudbees.version}}"
-          echo "Date: 2026-01-20T00:01:15.922Z"
+          echo "Date: 2026-01-20T10:20:04.058Z"
