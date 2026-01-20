@@ -7,13 +7,13 @@ jobs:
   env_reg_artifacts:
     steps:
       - name: Inform system that an artifact version was created
-        uses: cloudbees-io/register-build-artifact@v1
+        uses: cloudbees-io/register-build-artifact@v2
         id: register
         with:
           name: "cbpautomation/python-hello-world-docker"
-          version: "19.23.56"
-          url: "docker.io/cbpautomation/python-hello-world-docker:19.23.56"
-          digest: "sha256:5f685252bc645d7ce984ab49ea62e35c1e7b0361b0afd948af01b81080f36763"
+          version: "20.10.17"
+          url: "docker.io/cbpautomation/python-hello-world-docker:20.10.17"
+          digest: "sha256:a652ff83cf725f36bdc946b4d283d3a4ed807367e951f4b37933130ea2f72b72"
           
       - name: success_valid_env_reg_artifact
         uses: cloudbees-io/register-deployed-artifact@v2
