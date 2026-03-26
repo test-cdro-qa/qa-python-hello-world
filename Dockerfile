@@ -1,4 +1,4 @@
-# Use the official Python Alpine base image
+# Use the official Python Alpine base images
 FROM python:3.9-alpine
 
 # Set the working directory in the container
