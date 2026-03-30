@@ -5,7 +5,7 @@
     "workflow_file_name": "workflow-1.yaml",
     "inputs": {
       "testkey1": "value",
-      "testkey2": "50"
+      "testkey2": "100"
     }
   },
   {
