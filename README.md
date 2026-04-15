@@ -4,6 +4,7 @@ Sample Python + Alpine project to run "Hello World" inside a Docker container.
 ## Prerequisites
 Docker installed on your system.
 
+
 ## Build the image
 Clone or navigate to the project directory where the Dockerfile and hello.py are located.
 
