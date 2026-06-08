@@ -34,5 +34,5 @@ jobs:
         with:
           content: |-
             CB_VERSION: ${{cloudbees.version}}
-            echo "Date: 2026-06-05T23:55:50.783Z"
+            echo "Date: 2026-06-08T10:03:56.556Z"
 
