@@ -32,7 +32,7 @@ jobs:
         with:
           content: |-
             CB_VERSION: ${{cloudbees.version}}
-            echo "Date: 2026-06-12T12:37:40.192Z"
+            echo "Date: 2026-06-12T12:40:18.463Z"
             
   deploy-qa:
     needs: build
@@ -48,7 +48,7 @@ jobs:
         with:
           content: |-
             CB_VERSION: ${{cloudbees.version}}
-            echo "Date: 2026-06-12T12:37:40.192Z"
+            echo "Date: 2026-06-12T12:40:18.463Z"
   deploy-prod:
     needs: build
     steps:
@@ -63,4 +63,4 @@ jobs:
         with:
           content: |-
             CB_VERSION: ${{cloudbees.version}}
-            echo "Date: 2026-06-12T12:37:40.192Z"
+            echo "Date: 2026-06-12T12:40:18.463Z"
