@@ -11,9 +11,9 @@ jobs:
         id: register
         with:
           name: "cbpautomation/python-hello-world-docker"
-          version: "08.13.37"
-          url: "docker.io/cbpautomation/python-hello-world-docker:08.13.37"
-          digest: "sha256:f1c558288464a7973efa9348330eec243e6a86f969466dc94d2911479c9357aa"
+          version: "09.09.41"
+          url: "docker.io/cbpautomation/python-hello-world-docker:09.09.41"
+          digest: "sha256:0531e760b3a765d42df6aee825546498e7d567cbd744fe3a2f5ea840a7e1b4e0"
           
       - name: success_valid_env_reg_artifact
         uses: cloudbees-io/register-deployed-artifact@v2
